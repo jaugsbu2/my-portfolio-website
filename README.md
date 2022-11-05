@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-![Horiseon-Website-Nav](/assets/images/Horiseon-Website-Nav.png)
+![about-section](/assets/images/about-section.png)
 
 ## Description
 
@@ -12,16 +12,14 @@ Link to Deployment: https://jaugsbu2.github.io/my-portfolio-website/
 
 ## Usage
 
-To use the Horiseon Solution Services Website, you can click on the links in the navigation menu and you will be directed to the article on the website containing information about that service. To inspect the refractored code, you can right click on the webpage and press the "Inspect" option at the bottom of the list.
+Click on the links in the top navigation bar and you will be directed to that section. 
+To view the flexible structure of the website, resize the browser as desired.
+Click on any of the links within the Work section and you will be routed to the website showcasing that project.
 
 
 ## Credits
 
-https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
-
-https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute
-
-https://www.seancdavis.com/posts/three-ways-to-add-image-to-github-readme/
+https://www.w3schools.com/cssref/pr_background-image.php
 
 ## License
 
