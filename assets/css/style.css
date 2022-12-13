@@ -130,8 +130,22 @@ main h2 {
   background-size: cover;
   border-radius: 15px;
   margin: 1%;
-  min-width: 300px;
+  min-width: 375px;
   position: relative;
+}
+
+.napster {
+  flex: 1 0 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Napster2.0app.png);
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px;
+  margin: 1%;
+  min-width: 225px;
+  max-width: 50%;
 }
 
 .Horiseon {
@@ -144,7 +158,7 @@ main h2 {
   position: relative;
   border-radius: 15px;
   margin: 1%;
-  min-width: 175px;
+  min-width: 225px;
   max-width: 50%;
 }
 
@@ -158,7 +172,7 @@ main h2 {
   position: relative;
   border-radius: 15px;
   margin: 1%;
-  min-width: 175px;
+  min-width: 225px;
   max-width: 50%;
 }
 
@@ -176,12 +190,13 @@ main h2 {
   text-decoration: none;
   padding: 15px;
 }
+
 .button {
   height: 250px;
   display: none;
   }
 
-.smartbar a, .Horiseon a, .prework a {
+.smartbar a, .Horiseon a, .prework a, .napster a {
   display: block;
 }
 
@@ -198,7 +213,7 @@ main h2 {
   line-height: 1.5;
 }
 
-.prework:hover, .Horiseon:hover, .smartbar:hover {
+.prework:hover, .Horiseon:hover, .smartbar:hover, .napster:hover {
   transform: scale(1.07);
 }
 
@@ -222,7 +237,7 @@ main h2 {
     flex-direction: column;
   }
 
-  .smartbar, .prework, .Horiseon {
+  .smartbar, .prework, .Horiseon, .napster {
     width: 100%;
     max-width: 100%;
   }
