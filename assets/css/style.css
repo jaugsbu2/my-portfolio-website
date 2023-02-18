@@ -148,6 +148,20 @@ main h2 {
   max-width: 50%;
 }
 
+.herd {
+  flex: 1 0 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/herdapp.png);
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px;
+  margin: 1%;
+  min-width: 225px;
+  max-width: 50%;
+}
+
 .Horiseon {
   flex: 1 0 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Horiseon\ Services.png);
@@ -196,7 +210,7 @@ main h2 {
   display: none;
   }
 
-.smartbar a, .Horiseon a, .prework a, .napster a {
+.smartbar a, .Horiseon a, .prework a, .napster a, .herd a {
   display: block;
 }
 
@@ -213,7 +227,7 @@ main h2 {
   line-height: 1.5;
 }
 
-.prework:hover, .Horiseon:hover, .smartbar:hover, .napster:hover {
+.prework:hover, .Horiseon:hover, .smartbar:hover, .napster:hover, .herd:hover {
   transform: scale(1.07);
 }
 
@@ -237,7 +251,7 @@ main h2 {
     flex-direction: column;
   }
 
-  .smartbar, .prework, .Horiseon, .napster {
+  .smartbar, .prework, .Horiseon, .napster, .herd {
     width: 100%;
     max-width: 100%;
   }
